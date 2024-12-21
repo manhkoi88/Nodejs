@@ -24,15 +24,23 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
+      phoneNunber: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
       gender: {
         allowNull: false,
         type: Sequelize.BOOLEAN
       },
-      typeRole: {
+      roleId: {
         allowNull: false,
         type: Sequelize.STRING
       },
-      keyRole: {
+      image: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      positionId: {
         allowNull: false,
         type: Sequelize.STRING
       },
